@@ -41,24 +41,35 @@ img {
     font-weight: 600;
 }
 
-#login-form input {
+#login-form input:first-child {
     position: absolute;
     padding: 2vh;  
     font-size: 3vh;    
-    top: 50vh;    
-    width: 23vw;
+    top: 50vh;
+    left: 40vw;    
+    width: 12vw;
     font-weight: 600;
     border:none;
-    border-bottom: 1px solid rgba(15, 12, 153, 0.726);
+    border-bottom: 1px solid rgba(15, 12, 153, 0.726);    
     background:transparent ;
     color: rgb(15, 12, 153);     
 }
-
+#login-form input:last-child {
+    position: absolute;
+    top: 51.5vh;
+    left: 55vw; 
+    padding: 7px;
+    border-radius: 10px;
+    border: 5px ridge rgba(211, 220, 50, .6);    
+}
 #login-form input::placeholder{
     color: rgb(15, 12, 153);  
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
-    font-size: 3vh;  
+    font-size: 2.55vh;  
     font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 8px;
+    padding: 7px;
 }
 
 
