@@ -36,28 +36,32 @@ img {
 
 #clock{
     position: absolute;
-    top: 40vh;
+    top: 38vh;
     font-size: 10vh;
     font-weight: 600;
 }
-
-#login-form input:first-child {
-    position: absolute;
-    padding: 2vh;  
-    font-size: 3vh;    
+#login-form input {
+    position: relative;
+    display: flex;
     top: 50vh;
-    left: 30vw;
-        width: 210px;
+    justify-content: space-between;
+}
+#login-form input:first-child {
+    position: fixed;
+    padding: 2vh;  
+    font-size: 3vh;
+    width: 210px;
     font-weight: 600;
+    margin-left: -160px;
     border:none;
     border-bottom: 1px solid rgba(15, 12, 153, 0.726);    
     background:transparent ;
     color: rgb(15, 12, 153);     
 }
 #login-form input:last-child {
-    position: absolute;
-    top: 51.5vh;
-    left: 60vw;
+    position: fixed;
+        top: 52vh;
+        margin-left: 120px;
     padding: 7px;
     border-radius: 10px;
     border: 5px ridge rgba(211, 220, 50, .6);    
